@@ -5,9 +5,9 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#d3d7cf",
+          "background": "#afb3ac",
           "foreground": "#000000",
-          "leading_diamond": "\u256d\u2500\ue0b2",
+          "leading_diamond": "\ue0b2",
           "style": "diamond",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
           "type": "os"
@@ -165,7 +165,7 @@
           "background_templates": [
             "{{ if gt .Code 0 }}#cc2222{{ end }}"
           ],
-          "foreground": "#d3d7cf",
+          "foreground": "#afb3ac",
           "invert_powerline": true,
           "powerline_symbol": "\ue0b2",
           "properties": {
@@ -176,7 +176,7 @@
           "type": "exit"
         },
         {
-          "background": "#d3d7cf",
+          "background": "#afb3ac",
           "foreground": "#000000",
           "invert_powerline": true,
           "style": "diamond",
@@ -192,9 +192,9 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#d3d7cf",
+          "foreground": "#55cf00",
           "style": "plain",
-          "template": "\u2570\u2500",
+          "template": "\uf460",
           "type": "text"
         }
       ],
@@ -203,7 +203,7 @@
     {
       "segments": [
         {
-          "foreground": "#d3d7cf",
+          "foreground": "#afb3ac",
           "style": "plain",
           "template": "\u2500\u256f",
           "type": "text"
