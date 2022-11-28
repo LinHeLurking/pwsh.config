@@ -1,3 +1,4 @@
+Set-PSReadLineOption -PredictionSource Plugin
 Set-Alias -Name vim -Value nvim
 
 $ENV:HTTP_PROXY = "http://127.0.0.1:1089"
